@@ -1,0 +1,23 @@
+.days_container{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 400px;
+    height: 150px;
+    width: 150px;
+    z-index: 9999999999;
+    /* background-color: green; */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.container_top{
+    display: flex;
+    justify-content: center;
+}
+.container_middle{
+    display: flex;
+    justify-content: center;
+}
+.container_bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
