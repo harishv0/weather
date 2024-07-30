@@ -43,12 +43,16 @@ const weatherIcons = {
   "03n": NightScatterdClouds,
   "04d": MrngBrokenClouds,
   "04n": NightBrokenClouds,
+  "09d": MrngBrokenClouds,
+  "09n": NightScatterdClouds,
   "10d": MrngRain,
   "10n": NightRain,
   "11d": MrngThunderStrom,
   "11n": NightThunderStrom,
   "13d": MrngSnow,
-  "13n": NightSnow
+  "13n": NightSnow,
+  "50d": MrngClearSky,
+  "50n": NightClearSky
 }
 const[description, setDescription] = useState("sunny")
 
